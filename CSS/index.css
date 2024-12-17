@@ -29,6 +29,50 @@
   font-style: normal;
 }
 
+.font-arabic {
+  font-family: 'Rubik', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Home */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(13, 13, 13, 0.95);
+}
+#Home {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Asset/bg-banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Mempelai */
+#mempelai {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+/* Firman Allah */
+#firmanAllah {
+  position: relative;
+}
+
+/* tanggal */
+#tanggal {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+/* Landing page */
 #landingPage {
   width: 100%;
   height: 100vh;
@@ -45,4 +89,98 @@
   z-index: 1; /* Pastikan berada di atas elemen lain */
   pointer-events: none; /* Agar klik tombol tetap berfungsi */
   background-color: white !important;
+}
+
+/* Mouse Animation */
+@keyframes scroll {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+.mouse-animation > .scroll-animation {
+  width: 0.25rem;
+  height: 0.625rem;
+  animation: scroll 3s linear infinite;
+}
+
+.mouse-animation {
+  height: 2rem;
+  box-sizing: content-box;
+}
+
+/* Box Propile */
+.box-propile {
+  width: 800px;
+}
+
+/* animation-love */
+.love {
+  animation: upDown 10s ease-in-out infinite;
+  -webkit-animation: upDown 10s ease-in-out infinite;
+}
+
+.love-1 {
+  animation-delay: 0s; /* Tanpa delay */
+}
+
+.love-2 {
+  animation-delay: 2s; /* Delay 2 detik */
+}
+
+.love-3 {
+  animation-delay: 4s; /* Delay 4 detik */
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px); /* Tinggi ke atas */
+  }
+  100% {
+    transform: translateY(0); /* Kembali ke bawah */
+  }
+}
+
+/* Countdown CSS */
+/* General Countdown Style */
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.circle h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.circle p {
+  position: absolute;
+  bottom: -25px;
+  font-size: 1rem;
+  color: #f8f9fa;
+  line-height: 80px;
 }
