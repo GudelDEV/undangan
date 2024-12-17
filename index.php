@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Satisfy&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
     <!-- mycss -->
     <link rel="stylesheet" href="CSS/index.css" />
 </head>
@@ -24,37 +25,39 @@
             <ul class="navbar-nav nav-justified w-100 align-items-center">
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#home">
-                        <i class="fa-solid fa-house"></i>
+                        <i class="bi bi-house-heart-fill"></i>
                         <span class="d-block" style="font-size: 0.7rem;">Home</span>
                     </a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link text-white" href="#bride">
-                        <i class="fa-solid fa-user-group"></i>
+                        <i class="bi bi-people-fill"></i>
                         <span class="d-block" style="font-size: 0.7rem;">Mempelai</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#wedding-date">
-                        <i class="fa-solid fa-calendar-check"></i>
+                        <i class="bi bi-calendar-heart-fill"></i>
                         <span class="d-block" style="font-size: 0.7rem;">Tanggal</span>
                     </a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link text-white" href="#gallery">
-                        <i class="fa-solid fa-images"></i>
+                        <i class="bi bi-card-image"></i>
                         <span class="d-block" style="font-size: 0.7rem;">Galeri</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#comment">
-                        <i class="fa-solid fa-comments"></i>
+                        <i class="bi bi-chat-heart-fill"></i>
                         <span class="d-block" style="font-size: 0.7rem;">Ucapan</span>
                     </a>
                 </li>
             </ul>
         </nav>
         <!-- Navbar-end -->
+
+
     </header>
     <!-- Header End -->
 
